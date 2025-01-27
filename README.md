@@ -21,13 +21,13 @@ Hello, I'm Montrae and I cant't wait to work with all of you!
 
 ```mermaid
 flowchart TD
-Start([Start]) --> RandomNum[Random Num 0 - 20]
-RandomNum --> SameNum?{Same Num?}
-SameNum? -- Yes --> YouGuessedIt![You Guessed It!]
-SameNum? -- No --> TooHighOrTooLow?{Too High Or Too Low?}
-TooHighOrTooLow? -- High --> TooHigh![Too High!]
-TooHighOrTooLow? -- Low --> TooLow![Too Low!]
-TooHigh! --> TryAgain[Try Again]
-TooLow! --> TryAgain
-You Guess It! --> End([End])
+Start([Start]) --> RandomNum[RandomNum 0 - 20]
+RandomNum --> SameNum?{SameNum?}
+SameNum? -- Yes --> YouGuessedIt![YouGuessedIt!]
+SameNum? -- No --> TooHighOrTooLow?{TooHighOrTooLow?}
+TooHighOrTooLow? -- High --> TooHigh![TooHigh!]
+TooHighOrTooLow? -- Low --> TooLow![TooLow!]
+TooHigh! --> TryAgain[TryAgain]
+TooLow! --> TryAgain[TryAgain]
+YouGuessIt! --> End([End])
 ```
