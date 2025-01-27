@@ -21,6 +21,8 @@ Hello, I'm Montrae and I cant't wait to work with all of you!
 
 ```mermaid
 flowchart TD
-Start([Start]) --> RandomNum([RandomNum])
-RandomNum([RandomNum]) --> Correct?{Correct?}
+Start([Start]) --> RandomNum[RandomNum]
+RandomNum --> SameNum?{SameNum?}
+SameNum? -- Yes --> YouGuessedIt![YouGuessedIt!]
+SameNum? -- No --> TooHighOrTooLow?{TooHighOrTooLow?}
 ```
