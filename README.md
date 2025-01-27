@@ -30,6 +30,6 @@ TooHighOrTooLow? -- True --> TooHigh![TooHigh!]
 TooHighOrTooLow? -- False --> TooLow![TooLow!]
 TooHigh! --> TryAgain[TryAgain]
 TooLow! --> TryAgain[TryAgain]
-TryAgain --> SameNum?
+TryAgain --> UsersGuess
 YouGuessedIt! --> End([End])
 ```
