@@ -29,5 +29,5 @@ TooHighOrTooLow? -- High --> TooHigh![Too High!]
 TooHighOrTooLow? -- Low --> TooLow![Too Low!]
 TooHigh! --> TryAgain[Try Again]
 TooLow! --> TryAgain
-YouGuessIt! --> End([End])
+You Guess It! --> End([End])
 ```
