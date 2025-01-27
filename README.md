@@ -24,10 +24,10 @@ flowchart TD
 Start([Start]) --> RandomNum[RandomNum 0 - 20]
 RandomNum --> UsersGuess[UsersGuess]
 UsersGuess --> SameNum?{SameNum?}
-SameNum? -- Yes --> YouGuessedIt![YouGuessedIt!]
-SameNum? -- No --> TooHighOrTooLow?{TooHighOrTooLow?}
-TooHighOrTooLow? -- High --> TooHigh![TooHigh!]
-TooHighOrTooLow? -- Low --> TooLow![TooLow!]
+SameNum? -- True --> YouGuessedIt![YouGuessedIt!]
+SameNum? -- False --> TooHighOrTooLow?{TooHighOrTooLow?}
+TooHighOrTooLow? -- True --> TooHigh![TooHigh!]
+TooHighOrTooLow? -- False --> TooLow![TooLow!]
 TooHigh! --> TryAgain[TryAgain]
 TooLow! --> TryAgain[TryAgain]
 TryAgain --> SameNum?
