@@ -22,7 +22,7 @@ Hello, I'm Montrae and I cant't wait to work with all of you!
 ```mermaid
 flowchart TD
 Start([Start]) --> RandomNum[RandomNum 0 - 20]
-RandomNum --> UsersGuess[UsersGuess]
+RandomNum --> UsersGuess(UsersGuess)
 UsersGuess --> SameNum?{SameNum?}
 SameNum? -- True --> YouGuessedIt![YouGuessedIt!]
 SameNum? -- False --> TooHighOrTooLow?{TooHighOrTooLow?}
