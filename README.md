@@ -21,5 +21,5 @@ Hello, I'm Montrae and I cant't wait to work with all of you!
 
 ```mermaid
 flowchart TD
-Start([Start]) --> End([End])
+Start([Start]) --> Guess my number([Guess my Number]) --> End([End])
 ```
