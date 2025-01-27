@@ -37,6 +37,6 @@ YouGuessedIt! --> End([End])
 
 1. The computer generates a random numerical value from 0-20 and displays it.  
 2. The user has to make a guess at the computers number.
-3. If the user guesses the computers number correctly it displays "YouGuessedIt!" and the code will end.
+3. If the user guesses the computers number correctly it displays "YouGuessedIt!" and the program will end.
 4. If the user guesses incorecctly it will display weather or not the ussers guess was too high or too low and will then return the user to "UsersGuess" for them to attempt another guess.  
 5. Once the user is prompted to make another guess the program will start from "UsersGuess".
