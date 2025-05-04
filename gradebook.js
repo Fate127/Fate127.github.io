@@ -46,3 +46,7 @@ function populateGradebook(data) {
 			tableElm.appendChild(row);
 		});
 }
+
+// Call the stubs to test
+const gradeData = fetchGradeData();
+populateGradebook(gradeData);
